@@ -294,8 +294,9 @@ export default class AppContent extends Component {
 									</div>
 									<Card className="bg-transparent border-0" data-aos={includeAOS ? 'fade-right' : ''} data-aos-duration={includeAOS ? '1000' : ''}>
 										<Card.Body className="text-black padding-balance text-black">
-											<h4 className="font-rosemary text-black fs-10" style={{
-												marginTop: '-15px'
+											<h4 className="font-rosemary text-black" style={{
+												marginTop: '-15px',
+												fontSize: '4rem'
 											}}>
 												<strong>Supriyatin</strong>
 											</h4>
@@ -319,7 +320,9 @@ export default class AppContent extends Component {
 									</div>
 									<Card className="bg-transparent border-0" data-aos={includeAOS ? 'fade-left' : ''} data-aos-duration={includeAOS ? '1000' : ''}>
 										<Card.Body className="text-black padding-balance text-black">
-											<h4 className="font-rosemary text-black fs-8">
+											<h4 className="font-rosemary text-black" style={{
+											fontSize: "4rem"
+											}}>
 												<strong>Dyah Umi Munawaroh</strong>
 											</h4>
 											<p className="font-roboto-light fw-bold mb-0">Putri Dari<br/>Bapak Saiman & Ibu Wantini</p>
