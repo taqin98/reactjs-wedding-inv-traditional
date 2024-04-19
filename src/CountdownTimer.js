@@ -109,9 +109,6 @@ const CountdownTimer = ({ includeAOS }) => {
                     left: calc(50% - 148px);
                     transform: translateX(-50%);
                 }
-                .font-rosemary_jasmine-title {
-                    font-size: 4rem !important;
-                }
                 .ranting {
                     position: absolute;
                     z-index: 3;
@@ -166,7 +163,7 @@ const CountdownTimer = ({ includeAOS }) => {
                         </li>
                     </ul>
                     <p className="fst-italic fs-3 mt-3">05 Mei 2024</p>
-                    <p className="font-rosemary_jasmine-title fst-italic fw-bold fs-3 mt-3">Supri & Dyah</p>
+                    <p className="font-rosemary_jasmine-title fst-italic mt-3">Supri & Dyah</p>
                 </div>
                 <h1 className="text-center font-rosemary_jasmine-title text-gray">Save The Date</h1>
                 <div>

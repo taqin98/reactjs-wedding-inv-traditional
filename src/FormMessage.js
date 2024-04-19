@@ -51,6 +51,8 @@ const FormMessage = () => {
     return(
         <React.Fragment>
             <div className="container bg-primary pb-5">
+                <div className="font-rosemary_jasmine-title mt-2 text-white"
+                >Mempelai Pria</div>
                 <div className="message-scroll pb-5">
                     <Row className="gy-3">
                         {comments.map((comment) => (

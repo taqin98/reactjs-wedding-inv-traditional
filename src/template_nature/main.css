@@ -360,6 +360,7 @@ svg {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	box-shadow: -1px 1px 15px 1px #ccc;
+    border-radius: 15px;
 }
 .form-control {
     display: block;
