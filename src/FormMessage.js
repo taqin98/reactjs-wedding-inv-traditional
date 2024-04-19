@@ -50,9 +50,15 @@ const FormMessage = () => {
     
     return(
         <React.Fragment>
-            <div className="container bg-primary pb-5">
-                <div className="font-rosemary_jasmine-title mt-2 text-white"
-                >Mempelai Pria</div>
+            <div className="py-5 float-left" style={{
+                backgroundColor: "#d8cfc6",
+                backgroundImage: "url(./assets/images/bg_wayang_polos.jpeg)",
+                backgroundSize: "cover",
+                backgroundPosition: "50% 50%",
+                boxShadow: "inset 2000px 0 0 0 rgb(217 207 201 / 50%)"
+            }}>
+                <div className="font-rosemary_jasmine-title mt-4 py-4"
+                >Ucapan & Doa</div>
                 <div className="message-scroll pb-5">
                     <Row className="gy-3">
                         {comments.map((comment) => (
@@ -75,7 +81,7 @@ const FormMessage = () => {
                 </div>
                 <div className="form-container mt-2 px-4">
                     <label>Kirim Ucapan</label>
-                    <Row className="gy-3">
+                    <Row className="gy-3 mt-3">
                         <Col xs={12}>
                             <input
                                 type="text"
@@ -88,7 +94,7 @@ const FormMessage = () => {
                         <Col xs={12}>
                             <textarea
                                 className="form-control"
-                                placeholder="Tulis pesan Anda..."
+                                placeholder="Tulis pesan ucapan Anda..."
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
                             ></textarea>

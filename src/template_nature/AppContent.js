@@ -245,14 +245,14 @@ export default class AppContent extends Component {
 							<div className="object-suket my-4"></div>
 							<Row className="gy-2">
 								<Col xs={4} md={4} className="mx-auto">
-									<img src={process.env.REACT_APP_PUBLIC_URL + "assets/images/logo-bri.png"} alt="" style={{
+									<img src={"./assets/images/logo-mandiri.svg"} alt="" style={{
 										width: "80%",
 									}}></img>
 								</Col>
 								<Col xs={8} md={8} className="text-left">
-									<CopyTextButton textToCopy="127001010265501" an="Ayu Sri Anzar Wati" />
+									<CopyTextButton textToCopy="1380020703190" an="SUPRIYATIN" />
 								</Col>
-								<Col xs={4} md={4} className="mx-auto">
+								{/* <Col xs={4} md={4} className="mx-auto">
 									<img src={process.env.REACT_APP_PUBLIC_URL + "assets/images/logo-bca.png"} alt="" style={{
 										width: "80%",
 									}}></img>
@@ -267,7 +267,7 @@ export default class AppContent extends Component {
 								</Col>
 								<Col xs={8} md={8} className="text-left">
 									<CopyTextButton textToCopy="08567452717" an="Nurul Muttaqin" />
-								</Col>
+								</Col> */}
 							</Row>
 						</Modal.Body>
 					</Modal>
@@ -525,7 +525,16 @@ export default class AppContent extends Component {
 						}} onClick={
 							() => window.open("https://maps.google.com/?q=Dusun+III%2C+Jeruk%2C+Miri%2C+Sragen+Regency%2C+Central+Java+57276&ftid=0x2e7a0c1078169b9d:0xcc7f125c9d954ef9&entry=gps", "_blank")
 						}>Lihat Lokasi</Button>
+
+						<div className="object-suket my-4"></div>
+						<div className="text-white quotes padding-balance card-body aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">Dan Diantara tanda-tanda kebesaran-Nya ialah diciptakan-Nya untukmu pasangan hidup dari jenismu sendiri supaya kamu mendapatkan ketenangan hati dan dijadikan-Nya kasih sayang diantara kamu sesungguhnya yang demikian menjadi tanda-tanda kebesaran-Nya bagi orang-orang yang berfikir 
+						<br/>(Surat Ar-Ruum:21)</div>
 					</section>
+					<div className="shape float-left w-100">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="svg-bottom">
+							<path fillOpacity="1" d="M 0 192 L 60 208 C 120 224 240 256 360 261.3 C 480 267 600 245 720 202.7 C 840 160 960 96 1080 106.7 C 1200 117 1304 143 1439 227 L 1439 139 L 1439 0 L 1360 0 C 1349 0 1173 0 1066 0 C 958 0 825 0 724 0 C 624 0 507 0 375 0 C 375 1 130 0 116 0 L 0 0 Z" className="shape-fill-buttom" data-v-c5783f70=""></path>
+						</svg>
+					</div>
 
 					<FormMessage />
 					<section className="section-footer bg-primary">

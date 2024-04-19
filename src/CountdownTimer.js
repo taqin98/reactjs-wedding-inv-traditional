@@ -55,6 +55,18 @@ const CountdownTimer = ({ includeAOS }) => {
                 background-position: 50% 50%;
                 box-shadow: inset 2000px 0 0 0 rgba(156,136,127,0.7);
             }
+            #countdown::before {
+                content: "";
+                width: 232px;
+                transform: translateX(-50%);
+                height: 92px;
+                left: 50%;
+                bottom: 6rem;
+                position: absolute;
+                background-image: url(./assets/images/att_kelir_shadow.png);
+                background-size: cover;
+                z-index: 4;
+            }
                 #countdown .countdown-section, #countdown.going_on .event-going-on {
                     z-index: 3;
                     padding-top: 3.5rem;
@@ -165,7 +177,7 @@ const CountdownTimer = ({ includeAOS }) => {
                     <p className="fst-italic fs-3 mt-3">05 Mei 2024</p>
                     <p className="font-rosemary_jasmine-title fst-italic mt-3">Supri & Dyah</p>
                 </div>
-                <h1 className="text-center font-rosemary_jasmine-title text-gray">Save The Date</h1>
+                <h1 className="text-center font-rosemary_jasmine-title text-gray pt-4">Save The Date</h1>
                 <div>
                     <div className="ranting right">
                         <img src="./assets/images/bg_ranting.png" alt="ranting pohon" className="w-100" />
